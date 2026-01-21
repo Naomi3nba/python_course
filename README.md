@@ -73,7 +73,7 @@ plt.show()
 ````
 ### Results
 
-![Visualitation of Top Skills for Data Nerds](3_Proyect\IMAGES_\2_SKILL_COUNT.png)
+![Visualization of Top Skills for Data Nerds](3_Proyect\IMAGES_\2_SKILL_COUNT.png)
 *Note: Percentages represent the share of U.S. job postings that explicitly mention each skill for the respective role. Only the top five most frequently requested skills per role are shown to highlight core market requirements.
 
 
@@ -117,7 +117,7 @@ plt.show()
 
 ### Results
 
-![Visualitation of Skills Trend for Data Nerds](3_Proyect\IMAGES_\3_Skills_trend.png)
+![Visualization of Skills Trend for Data Nerds](3_Proyect\IMAGES_\3_Skills_trend.png)
 *Note: This chart shows monthly trends in the likelihood that specific skills appear in U.S. Data Analyst job postings during 2024. Percentages reflect relative demand over time and highlight seasonal patterns and stability in core analytical skills.
 
 ### Insights
@@ -161,11 +161,11 @@ plt.show()
 
 ### Results
 
-![Visualitation of Salary Analysis for Data Nerds](3_Proyect\IMAGES_\4_salary_analysis.png)
+![Visualization of Salary Analysis for Data Nerds](3_Proyect\IMAGES_\4_salary_analysis.png)
 *Note: This boxplot illustrates the distribution of annual salaries in the U.S. across data roles and seniority levels. Medians, interquartile ranges, and outliers highlight salary progression, variability, and the impact of seniority on compensation.
 
 
-![Visualitation of Salary Analysis for Data Nerds](3_Proyect\IMAGES_\4_salary_analysis2.png)
+![Visualization of Salary Analysis for Data Nerds](3_Proyect\IMAGES_\4_salary_analysis2.png)
 *Note: These charts compare the top 10 highest-paid skills with the top 10 most in-demand skills for Data Analysts in the U.S. Median salaries are shown to highlight the gap between market demand and compensation, emphasizing the trade-off between accessibility and specialization.
 
 ### Insights 
@@ -202,7 +202,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Optimal Skills for Data Analysis in US](3_Proyect/IMAGES_/5_Optima%20skills%20para%20DA.png)
+![Visualization of Optimal Skills for Data Analysis in US](3_Proyect\IMAGES_\5_optimal_skills.png)
 *Note: This scatter plot compares skill demand (percentage of Data Analyst job postings) with median annual salary in the U.S. Skills positioned toward the upper-right offer the most optimal balance between high demand and strong compensation, highlighting Python as the strongest overall skill investment.
 
 ### INSIGHTS

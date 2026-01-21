@@ -73,24 +73,26 @@ plt.show()
 ````
 ### Results
 
-![Visualization of Top Skills for Data Nerds](3_Proyect/2_skill_count_1.png)
+![Visualization of Top Skills for Data Nerds](3_Proyect/VISUAL/2_SKILLS_COUNT.png)
 
 *Note: Percentages represent the share of U.S. job postings that explicitly mention each skill for the respective role. Only the top five most frequently requested skills per role are shown to highlight core market requirements.
 
 
 ### Insights
 
-* SQL is foundational across all roles, especially for Data Engineers (68%) and Data Scientists (51%).
+* SQL is a core skill across all roles, with highest demand for Data Engineers (66%) and strong relevance for Data Analysts (45%) and Data Scientists (46%).
 
-* Python dominates technical roles, with highest demand for Data Scientists (72%) and Data Engineers (65%).
+* Python dominates advanced data roles, leading demand for both Data Engineers (64%) and Data Scientists (65%).
 
-* Data Analysts rely more on Excel and BI tools, with Excel (41%) and Tableau (28%) appearing prominently.
+* Data Analysts show a more tool-oriented skill mix, relying on SQL, Excel (36%), and visualization tools like Tableau and Power BI.
 
-* Cloud skills matter mainly for Data Engineers, particularly AWS (43%) and Azure (32%).
+* Cloud and big data tools are critical for Data Engineers, with AWS (41%), Azure (34%), and Spark (30%) appearing prominently.
 
-* R is still relevant for Data Scientists (44%) but far less requested for other roles.
+* Data Scientists require statistical depth, reflected in continued demand for R (37%).
 
-* SAS shows declining relevance overall, appearing at lower rates across all three roles.
+* Visualization tools have lower priority for advanced roles, indicating specialization as roles become more technical.
+
+* Overall insight: skill requirements become more specialized and technical as roles progress from Data Analyst to Data Engineer and Data Scientist.
 
 Role specialization is clear:
 
@@ -118,25 +120,23 @@ plt.show()
 
 ### Results
 
-![Visualization of Skills Trend for Data Nerds](3_Proyect/Nueva%20carpeta/3_skills_trend_1.png)
+![Visualization of Skills Trend for Data Nerds](3_Proyect/VISUAL/3_skills_trend.png)
 
 *Note: This chart shows monthly trends in the likelihood that specific skills appear in U.S. Data Analyst job postings during 2024. Percentages reflect relative demand over time and highlight seasonal patterns and stability in core analytical skills.
 
 ### Insights
 
-* SQL remains the top skill all year, though it shows a mild downward trend toward year-end 📉
+* SQL remains the most in-demand skill throughout the year, peaking mid-year before declining slightly toward December.
 
-* Excel demand gradually declines, with a noticeable dip in Q4 before a small rebound in December
+* Excel shows strong mid-year growth, followed by a gradual decrease in demand in the second half of the year.
 
-* Python and Tableau stay relatively stable, indicating consistent but moderate demand for Data Analysts
+* Python maintains steady demand, indicating its role as a stable, core technical skill for Data Analysts.
 
-* Tableau peaks mid-year (around August), suggesting seasonal demand for visualization skills 📊
+* Tableau and Power BI follow similar trends, with moderate demand and noticeable increases around mid-year 📊
 
-* Python shows slight volatility, but no strong upward or downward trend
+* Mid-year (June–July) represents the highest overall demand across most skills, suggesting seasonal hiring patterns.
 
-* SAS is the least requested skill throughout the year, remaining consistently low
-
-* Overall insight: core analyst skills are stable, but advanced or niche tools don’t show strong growth signals
+* Overall insight: core Data Analyst skills remain stable, with temporary mid-year spikes rather than long-term upward or downward trends.
 
 
 ## 3. How well do jobs and skills pay for Data Analysts?
@@ -163,29 +163,33 @@ plt.show()
 
 ### Results
 
-![Visualization of Salary Distribution by Role](3_Proyect/Nueva%20carpeta/3_salary_box.png)
+![Visualization of Salary Distribution by Role](3_Proyect/VISUAL/4_salary_box.png)
 
 *Note: This boxplot illustrates the distribution of annual salaries in the U.S. across data roles and seniority levels. Medians, interquartile ranges, and outliers highlight salary progression, variability, and the impact of seniority on compensation.
 
 
-![Visualization of Salary Analysis by Skill](3_Proyect/Nueva%20carpeta/3_salary_bar.png)
-
+![Visualization of Salary Analysis by Skill](3_Proyect/VISUAL/4_high_pay_skill.png)
 *Note: These charts compare the top 10 highest-paid skills with the top 10 most in-demand skills for Data Analysts in the U.S. Median salaries are shown to highlight the gap between market demand and compensation, emphasizing the trade-off between accessibility and specialization.
 
 ### Insights 
 
-* Highest-paid skills are niche and specialized, often outside the typical Data Analyst toolkit (e.g., DevOps, cloud, blockchain) 💰
+* Salary increases clearly with seniority, with senior roles earning substantially more than junior positions across all data careers 📈
 
-* There is a clear gap between pay and demand: the most in-demand skills are not the highest paid
+* Senior Data Scientists and Senior Data Engineers lead in median salaries, reflecting advanced technical expertise and higher responsibility
 
-* Popular tools like Python, SQL, Excel, and Tableau offer solid but moderate salaries, reflecting their widespread use
+* Data Analysts have the lowest median salaries, but still show wide variability depending on skills, experience, and company
 
-* Advanced or less common skills command salary premiums, likely due to lower supply and cross-functional value
+* Salary distributions widen for more technical roles, indicating that specialization significantly impacts compensation
 
-* Demand-focused skills prioritize accessibility, while pay-focused skills reward specialization
+* The highest-paid skills are highly specialized and niche, often outside the traditional Data Analyst toolkit (e.g., advanced programming, cloud, blockchain) 💰
 
-* Key takeaway: combining core analyst skills with niche or technical expertise can significantly boost earning potential 📈
+* There is a strong gap between skill demand and pay: widely requested skills offer stability but not top compensation
 
+* Core Data Analyst tools (Python, SQL, Tableau, Power BI) provide solid, reliable salaries but are less differentiating
+
+* Office tools (Word, PowerPoint, Excel) remain common requirements but deliver the lowest return on investment
+
+* Overall insight: career growth and higher earnings are driven by a combination of seniority + specialization, not by demand alone
 
 ## 4. What is the most optimal skill to learn for Data Analyst?
 
@@ -206,25 +210,25 @@ plt.show()
 
 ### Results
 
-![Visualization of Optimal Skills Scatter Plot](3_Proyect/Nueva%20carpeta/4_skills_scatter.png)
+![Visualization of Optimal Skills Scatter Plot](3_Proyect/VISUAL/5_most_optimal_skills.png)
 
 *Note: This scatter plot compares skill demand (percentage of Data Analyst job postings) with median annual salary in the U.S. Skills positioned toward the upper-right offer the most optimal balance between high demand and strong compensation, highlighting Python as the strongest overall skill investment.
 
 ### INSIGHTS
 
-* Python stands out as the most optimal skill: combina alta demanda (~35%) con el salario mediano más alto (~$97K) 🚀
+* Python offers the best balance between demand and salary, combining high market demand with the highest median pay among analyst skills 🚀
 
-* SQL is the most in-demand skill, pero su salario mediano es menor que el de Python, lo que lo posiciona como un skill base más que diferenciador
+* SQL remains the most in-demand skill, but its salary premium is slightly lower than Python’s, positioning it as a core requirement rather than a differentiator
 
-* Cloud-related skills (Oracle) muestran alto salario con baja demanda, indicando especialización bien pagada pero de nicho 💰
+* Tableau and Power BI provide strong mid-range value, offering competitive salaries with moderate demand—ideal for business-focused Data Analysts 📊
 
-* Visualization tools like Tableau logran un buen equilibrio entre demanda y salario, ideales para Data Analysts orientados al negocio 📊
+* R and SAS show high salaries but lower demand, indicating valuable yet more specialized analytical skills
 
-* Excel sigue siendo muy demandado, pero ofrece uno de los salarios medianos más bajos, reflejando su carácter básico
+* Excel is highly demanded but lower paid, reinforcing its role as a foundational, entry-level skill
 
-* Word y PowerPoint presentan baja demanda y baja compensación, con bajo retorno de inversión para perfiles de Data Analyst
+* Word and PowerPoint deliver the lowest ROI, with both low demand and low compensation
 
-* Key takeaway: el skill más óptimo no es el más demandado ni el mejor pagado por separado, sino el que equilibra demanda + salario, donde Python lidera claramente
+* Key takeaway: the most optimal skills are those that balance strong demand and competitive pay, with Python clearly leading this trade-off
 
 
 

@@ -73,7 +73,7 @@ plt.show()
 ````
 ### Results
 
-![Visualization of Top Skills for Data Nerds](3_Proyect/2_skill_count_1.png)
+![Visualization of Top Skills for Data Nerds](3_Proyect/IMAGES_2_SKILL_COUNT.png)
 *Note: Percentages represent the share of U.S. job postings that explicitly mention each skill for the respective role. Only the top five most frequently requested skills per role are shown to highlight core market requirements.
 
 

@@ -1,4 +1,4 @@
-# 📊 Data Analyst Skills & Salary Analysis (US Job Market)
+# 📊 Data Analyst Skills & Salary Analysis (US Job Market) 2025
 
 # INTRODUCTION
 
